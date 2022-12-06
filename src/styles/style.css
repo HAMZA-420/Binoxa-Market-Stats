@@ -1,0 +1,126 @@
+/*-----------------NAVBAR-------------------------*/
+
+/*-----------------NAVBAR-------------------------*/
+.navigation{
+    background-image: linear-gradient(to right,#9f24af,rgba(36, 103, 230, 0.856));
+    min-height: 60px;
+}
+.nav-links{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
+.nav-links .brand{
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 56px;
+ 
+}
+
+/*-----------------TopVolumeChangesBox-------------------------*/
+
+/*-----------------TopVolumeChangesBox-------------------------*/
+.trade-box{
+    width: 180px ;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 4px #333333;
+    height: 70px;
+    vertical-align: middle;
+
+}
+.box-border{
+     border-top: 1px solid black ;
+     border-bottom: 1px solid black;
+}
+.box-block{
+    display: block;
+    padding: 8px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    box-shadow: 3px 4px 8px #333;
+    width: auto;
+    margin: 5px;
+    z-index: 99;
+    
+}
+.block{
+  display: contents;
+  text-align: center;
+ 
+}
+.block .title{
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+    color: tomato;
+  
+}
+.block .change{
+    display: block;
+
+}
+.section-title{
+    text-align: center;
+    color: rgb(14, 5, 71);
+    border: transparent;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 2px;
+    
+}
+.section-title::after{
+    content: '';
+    height: 3px;
+    width: 30%;
+    background-color: rgb(61, 13, 13);
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    border: transparent;
+    border-radius: 40px;
+
+}
+.coin{
+    font-size: 20px;
+}
+@media only screen and (max-width: 360px){
+.coin-name{
+    text-align: center;
+}
+.borderBottom{
+    border-bottom: 1px solid black;
+}
+
+}
+/*----------------------------UTILS----------------------------------*/
+/*----------------------------UTILS----------------------------------*/
+
+.greenbutton{
+    width: auto;
+    display: block;
+    background-color: rgb(12, 177, 12);
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 10px ;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+input{
+    font-weight: bold;
+    color: rgb(25, 16, 58);
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border-color: rgb(51, 10, 70);
+    text-transform: uppercase;
+}
